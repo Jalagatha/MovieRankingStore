@@ -7,7 +7,7 @@
     
         data1 +=` <div class="card">
     <h1 class="title">${values.title}</h1>
-<video controls muted height="200" width="320">
+<video class ="video" controls muted height="200" width="320">
   <source src="${values.trailer.mp4}" type="video/mp4">
 </video>
      

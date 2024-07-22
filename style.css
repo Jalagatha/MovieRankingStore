@@ -40,6 +40,12 @@ box-sizing: border-box;
     }
     .video{
         width: 80%; 
+        overflow: hidden;
+        scroll-behavior: smooth;
+    }
+    .video:hover{
+        transform: scale(1.1);
+        
     }
     button{
 color: white;
@@ -53,6 +59,8 @@ border-radius: 5px;
     nav{
         display: flex;
         background-color: blue;
+        position: fixed;
+        width: 100%;
         min-height: 70px;
         justify-content: center;
         align-items: center;
@@ -109,5 +117,26 @@ a:hover{
     margin: 3%;
 }
 .banner{
-    background: url(./images/strawberry.jpeg);
+    background: url(./images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    width: 100%;
+    background-repeat: no-repeat;
+
+}
+.banner h1{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 10%;
+}
+.banner:hover{
+    background: url(./images/pic.avif);
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    width: 100%;
+    background-repeat: no-repeat;
+
 }
