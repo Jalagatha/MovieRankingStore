@@ -31,7 +31,6 @@ box-sizing: border-box;
 
     }
 
-
     .genre,.year,.rating{
         font-weight: bold;
         text-transform: capitalize;
@@ -50,4 +49,65 @@ border: none;
 
 border-radius: 5px;
     }
+
+    nav{
+        display: flex;
+        background-color: blue;
+        min-height: 70px;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 0 4px 3px rgb(10, 3, 235);
+
+    }
+    nav ul{
+        margin-right: 0 50px;
+        color: white;
+    }
     
+    nav ul li{
+        display: inline-block;
+        list-style: none;
+        
+
+    }
+    nav ul li a{
+        text-decoration: none;
+        text-transform: uppercase;
+        margin: 15px;
+        color: white;
+        font-size:25px;
+
+    }
+nav .logo{
+    float: left;
+    margin: 0 100px;
+    justify-items: left;
+    align-items: center;
+    color: white;
+    font-size:25px;
+    text-transform: uppercase;
+}
+.active{
+    color:white;
+    padding: 5px;
+    border: 2px solid orangered;
+    background-color: orangered;
+    border-radius: 6px;
+}
+a:hover{
+    color: black;
+    padding: 5px;
+    border-bottom: 5px orange;
+}
+
+
+.logo:hover{
+    color: orange;
+}
+
+.h{
+    margin: 3%;
+}
+.banner{
+    background: url(./images/strawberry.jpeg);
+}
